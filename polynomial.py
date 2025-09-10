@@ -8,7 +8,7 @@ class X:
     def evaluate(self, x_value):
         # TODO: Implement evaluation for variable X
         # Should return an Int object with the given x_value
-        return int(x_value)
+        return Int(x_value)
         
 
     def simplify(self):
@@ -27,7 +27,7 @@ class Int:
     def evaluate(self, x_value):
         # TODO: Implement evaluation for integer constant
         # Should return an Int object with the stored integer value
-         return int(self.i)
+         return Int(self.i)
 
     def simplify(self):
         # TODO (Optional Exercise): Implement simplification
